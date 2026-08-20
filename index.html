@@ -1,49 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masande Pobana | Software Developer</title>
-    <meta name="description" content="Portfolio of Masande Pobana, a software developer, web developer and IT support professional.">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Masande Pobana, a software developer, web developer and IT support professional.">
+  <title>Masande Pobana | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">Masande<span>.</span></a>
-            <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
-            <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="hero-content">
-            <p class="hero-intro">Hello, I'm</p>
-            <h1>Masande Pobana</h1>
-            <h2>Software Developer & IT Professional</h2>
-            <p class="hero-description">I build websites, applications and practical technology solutions while continuously developing my skills in software development and technical support.</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">View My Work</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
-            </div>
-        </div>
-    </header>
-    <!-- About Section -->
-    <section id="about" class="section"><div class="container"><p class="section-label">ABOUT ME</p><h2>Who I Am</h2><p class="about-text">I am an IT graduate with knowledge and practical experience in software development, web development, mobile application development and technical support.</p><p class="about-text">I enjoy learning new technologies, solving problems and creating useful digital solutions. My goal is to continue building real projects and growing as a professional developer.</p></div></section>
-    <!-- Skills Section -->
-    <section id="skills" class="section skills-section"><div class="container"><p class="section-label">MY SKILLS</p><h2>Technologies & Skills</h2><div class="skills-grid"><div class="skill-card"><h3>HTML5</h3><p>Building structured and accessible web pages.</p></div><div class="skill-card"><h3>CSS3</h3><p>Creating responsive and modern website designs.</p></div><div class="skill-card"><h3>JavaScript</h3><p>Adding functionality and interactivity to websites.</p></div><div class="skill-card"><h3>Git & GitHub</h3><p>Managing source code and development projects.</p></div><div class="skill-card"><h3>WordPress</h3><p>Creating and managing websites using WordPress.</p></div><div class="skill-card"><h3>IT Support</h3><p>Troubleshooting hardware, software and technical problems.</p></div></div></div></section>
-    <!-- Projects Section -->
-    <section id="projects" class="section"><div class="container"><p class="section-label">MY WORK</p><h2>Projects</h2><div class="project-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="other">Other</button></div><div class="projects-grid"><article class="project-card" data-category="web"><div class="project-content"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio Website</h3><p>A responsive personal portfolio website created using HTML, CSS and JavaScript and deployed using GitHub Pages.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article><article class="project-card" data-category="other"><div class="project-content"><p class="project-type">COMING SOON</p><h3>More Projects</h3><p>New software development and web development projects will be added here as I continue building my portfolio.</p></div></article></div></div></section>
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section"><div class="container"><p class="section-label">GET IN TOUCH</p><h2>Let's Work Together</h2><p>I'm open to opportunities, freelance projects and collaborations.</p><a href="mailto:sandesite@gmail.com" class="btn primary-btn">Email Me</a></div></section>
-    <!-- Footer -->
-    <footer><p>© 2026 Masande Pobana. All rights reserved.</p><p>Built with HTML, CSS & JavaScript.</p></footer>
-    <script src="script.js"></script>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav class="navbar" aria-label="Main navigation"><div class="nav-container">
+    <a href="#home" class="logo">Masande<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation"><i></i><i></i><i></i></button>
+    <div class="nav-links" id="primary-navigation"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+  </div></nav>
+  <main id="main-content">
+    <header class="hero" id="home"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="hero-content">
+      <p class="availability"><b></b> Available for opportunities</p><p class="hero-intro">Hello, I'm</p>
+      <h1>Masande<br><em>Pobana.</em></h1><h2>Software Developer <span>&amp;</span> IT Professional</h2>
+      <p class="hero-description">I build websites, applications and practical technology solutions while continuously developing my skills in software development and technical support.</p>
+      <div class="hero-buttons"><a href="#projects" class="btn primary-btn">View my work <strong>↗</strong></a><a href="#contact" class="btn secondary-btn">Contact me</a></div>
+      <div class="hero-tags"><span>WEB DEVELOPMENT</span><span>SOFTWARE</span><span>IT SUPPORT</span></div>
+    </div><a class="scroll-cue" href="#about"><b></b> Scroll to explore</a></header>
+    <section class="section about-section" id="about"><div class="container split"><div><p class="section-label">01 / ABOUT ME</p><h2>Building with curiosity<br>and purpose.</h2></div><div class="about-copy"><p>I am an IT graduate with knowledge and practical experience in software development, web development, mobile application development and technical support.</p><p>I enjoy learning new technologies, solving problems and creating useful digital solutions. My goal is to continue building real projects and growing as a professional developer.</p></div></div></section>
+    <section class="section skills-section" id="skills"><div class="container"><div class="section-heading"><div><p class="section-label">02 / EXPERTISE</p><h2>Technologies &amp; skills.</h2></div><p>A practical toolkit for building, maintaining and improving digital experiences.</p></div><div class="skills-grid">
+      <article class="skill-card"><span>01</span><h3>HTML5</h3><p>Building structured and accessible web pages.</p></article><article class="skill-card"><span>02</span><h3>CSS3</h3><p>Creating responsive and modern website designs.</p></article><article class="skill-card"><span>03</span><h3>JavaScript</h3><p>Adding functionality and interactivity to websites.</p></article><article class="skill-card"><span>04</span><h3>Git &amp; GitHub</h3><p>Managing source code and development projects.</p></article><article class="skill-card"><span>05</span><h3>WordPress</h3><p>Creating and managing websites using WordPress.</p></article><article class="skill-card"><span>06</span><h3>IT Support</h3><p>Troubleshooting hardware, software and technical problems.</p></article>
+    </div></div></section>
+    <section class="section projects-section" id="projects"><div class="container"><div class="section-heading projects-heading"><div><p class="section-label">03 / SELECTED WORK</p><h2>Projects.</h2></div><div class="project-filters"><button class="filter-btn active" type="button" data-filter="all">All</button><button class="filter-btn" type="button" data-filter="web">Web</button><button class="filter-btn" type="button" data-filter="other">Other</button></div></div><div class="projects-grid">
+      <article class="project-card featured" data-category="web"><div class="project-art"><span>MP</span><p>01 / WEB DEVELOPMENT</p></div><div class="project-content"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio Website</h3><p>A responsive personal portfolio website created using HTML, CSS and JavaScript and deployed using GitHub Pages.</p><div class="project-bottom"><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><b>↗</b></div></div></article>
+      <article class="project-card coming-soon" data-category="other"><div class="project-content"><p class="project-type">COMING SOON</p><h3>More projects<br>are on the way.</h3><p>New software development and web development projects will be added here as I continue building my portfolio.</p><div class="plus">+</div></div></article>
+    </div></div></section>
+    <section class="section contact-section" id="contact"><div class="container"><p class="section-label">04 / GET IN TOUCH</p><h2>Let's build something<br><em>meaningful.</em></h2><p>I'm open to opportunities, freelance projects and collaborations.</p><a href="mailto:sandesite@gmail.com" class="btn primary-btn">sandesite@gmail.com <strong>↗</strong></a></div></section>
+  </main>
+  <footer><a href="#home" class="footer-logo">Masande<span>.</span></a><p>© <span id="footer-year">2026</span> Masande Pobana. All rights reserved.</p><p>Built with HTML, CSS &amp; JavaScript.</p></footer><script src="script.js"></script>
 </body>
 </html>
