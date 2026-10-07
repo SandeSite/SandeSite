@@ -3,288 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Masande Pobana | Software Developer</title>
-
     <meta name="description" content="Portfolio of Masande Pobana, a software developer, web developer and IT support professional.">
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-
             <a href="#" class="logo">Masande<span>.</span></a>
-
+            <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
-
         </div>
     </nav>
-
-
     <!-- Hero Section -->
     <header class="hero">
-
         <div class="hero-content">
-
             <p class="hero-intro">Hello, I'm</p>
-
             <h1>Masande Pobana</h1>
-
             <h2>Software Developer & IT Professional</h2>
-
-            <p class="hero-description">
-                I build websites, applications and practical technology solutions
-                while continuously developing my skills in software development
-                and technical support.
-            </p>
-
+            <p class="hero-description">I build websites, applications and practical technology solutions while continuously developing my skills in software development and technical support.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn primary-btn">View My Work</a>
                 <a href="#contact" class="btn secondary-btn">Contact Me</a>
             </div>
-
         </div>
-
+        <div class="hero-image">
+            <img src="images/image_2ace6385.jpg"
+            alt="Masande Pobana">
+            </div>
+        </div>
     </header>
-
-
     <!-- About Section -->
-    <section id="about" class="section">
-
-        <div class="container">
-
-            <p class="section-label">ABOUT ME</p>
-
-            <h2>Who I Am</h2>
-
-            <p class="about-text">
-                I am an IT graduate with knowledge and practical experience in
-                software development, web development, mobile application
-                development and technical support.
-            </p>
-
-            <p class="about-text">
-                I enjoy learning new technologies, solving problems and creating
-                useful digital solutions. My goal is to continue building real
-                projects and growing as a professional developer.
-            </p>
-
-        </div>
-
-    </section>
-
-
+    <section id="about" class="section"><div class="container"><p class="section-label">ABOUT ME</p><h2>Who I Am</h2><p class="about-text">I am an IT graduate with knowledge and practical experience in software development, web development, mobile application development and technical support.</p><p class="about-text">I enjoy learning new technologies, solving problems and creating useful digital solutions. My goal is to continue building real projects and growing as a professional developer.</p></div></section>
     <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
-
-        <div class="container">
-
-            <p class="section-label">MY SKILLS</p>
-
-            <h2>Technologies & Skills</h2>
-
-            <div class="skills-grid">
-
-                <div class="skill-card">
-                    <h3>HTML5</h3>
-                    <p>Building structured and accessible web pages.</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>CSS3</h3>
-                    <p>Creating responsive and modern website designs.</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>JavaScript</h3>
-                    <p>Adding functionality and interactivity to websites.</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>Git & GitHub</h3>
-                    <p>Managing source code and development projects.</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>WordPress</h3>
-                    <p>Creating and managing websites using WordPress.</p>
-                </div>
-
-                <div class="skill-card">
-                    <h3>IT Support</h3>
-                    <p>Troubleshooting hardware, software and technical problems.</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
+    <section id="skills" class="section skills-section"><div class="container"><p class="section-label">MY SKILLS</p><h2>Technologies & Skills</h2><div class="skills-grid"><div class="skill-card"><h3>HTML5</h3><p>Building structured and accessible web pages.</p></div><div class="skill-card"><h3>CSS3</h3><p>Creating responsive and modern website designs.</p></div><div class="skill-card"><h3>JavaScript</h3><p>Adding functionality and interactivity to websites.</p></div><div class="skill-card"><h3>Git & GitHub</h3><p>Managing source code and development projects.</p></div><div class="skill-card"><h3>WordPress</h3><p>Creating and managing websites using WordPress.</p></div><div class="skill-card"><h3>IT Support</h3><p>Troubleshooting hardware, software and technical problems.</p></div></div></div></section>
     <!-- Projects Section -->
-    <section id="projects" class="section">
-
-        <div class="container">
-
-            <p class="section-label">MY WORK</p>
-
-            <h2>Projects</h2>
-
-            <div class="projects-grid">
-
-                <article class="project-card">
-
-                    <div class="project-content">
-
-                        <p class="project-type">WEB DEVELOPMENT</p>
-
-                        <h3>Personal Portfolio Website</h3>
-
-                        <p>
-                            A responsive personal portfolio website created using
-                            HTML, CSS and JavaScript and deployed using GitHub Pages.
-                        </p>
-
-                        <div class="project-tech">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-content">
-
-                        <p class="project-type">COMING SOON</p>
-
-                        <h3>More Projects</h3>
-
-                        <p>
-                            New software development and web development projects
-                            will be added here as I continue building my portfolio.
-                        </p>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
+    <section id="projects" class="section"><div class="container"><p class="section-label">MY WORK</p><h2>Projects</h2><div class="project-filters"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="other">Other</button></div><div class="projects-grid"><article class="project-card" data-category="web"><div class="project-content"><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio Website</h3><p>Welcome to my personal portfolio, where I shwocase my projects and development.</p><div class="project-tech"></div></div></article><article class="project-card" data-category="web"><div class="project-content"><p class="project-type"><a href="https://sandesite.github.io/SandeSite/">SIDEMUSIC</a></p><h3>A Music Streaming Website</h3><p>Discover artists, releases and sounds from a new generation of music.</p></div></article></div></div></section>
     <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-
-        <div class="container">
-
-            <p class="section-label">GET IN TOUCH</p>
-
-            <h2>Let's Work Together</h2>
-
-            <p>
-                I'm open to opportunities, freelance projects and collaborations.
-            </p>
-
-            <a href="mailto:sandesite@gmail.com" class="btn primary-btn">
-                Email Me
-            </a>
-
-        </div>
-
-    </section>
-
-
+    <section id="contact" class="section contact-section"><div class="container"><p class="section-label">GET IN TOUCH</p><h2>Let's Work Together</h2><p>I'm open to opportunities, freelance projects and collaborations.</p><a href="mailto:sandesite@gmail.com" class="btn primary-btn">Email Me</a></div></section>
     <!-- Footer -->
-    <footer>
-
-        <p>
-            © 2026 Masande Pobana. All rights reserved.
-        </p>
-
-        <p>
-            Built with HTML, CSS & JavaScript.
-        </p>
-
-    </footer>
-
-
+    <footer><p>© 2026 Masande Pobana. All rights reserved.</p><p>Built with HTML, CSS & JavaScript.</p></footer>
     <script src="script.js"></script>
-
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masande Pobana | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>Masande Pobana</h1>
-    <p>Software Developer | Web Developer | IT Support</p>
-</header>
-
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        Welcome to my portfolio. I am an IT graduate with skills in software development,
-        web development, mobile application development and technical support. I enjoy
-        building useful applications and solving real-world problems.
-    </p>
-</section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>WordPress</li>
-        <li>Technical Support</li>
-    </ul>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <p>Projects coming soon...</p>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: sandesite@gmail.com</p>
-</section>
-
-<script src="script.js"></script>
-
-</body>
-</html>
-
